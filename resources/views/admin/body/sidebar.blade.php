@@ -37,37 +37,20 @@
             <li><a href="{{ route('users.add') }}"><i class="ti-more"></i>Add User</a></li>
           </ul>
         </li> 
-		  
+
         <li class="treeview">
           <a href="#">
-            <i data-feather="mail"></i> <span>Mailbox</span>
+            <i data-feather="message-circle"></i>
+            <span>Manage Files</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-right pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="mailbox_inbox.html"><i class="ti-more"></i>Inbox</a></li>
-            <li><a href="mailbox_compose.html"><i class="ti-more"></i>Compose</a></li>
-            <li><a href="mailbox_read_mail.html"><i class="ti-more"></i>Read</a></li>
+            <li><a href="{{ route('files.view') }}"><i class="ti-more"></i>View File Details</a></li>
+            <li><a href="{{ route('files.add') }}"><i class="ti-more"></i>Add Files</a></li>
           </ul>
-        </li>  
-		 
-        <li class="header nav-small-cap">User Interface</li>
-		  
-        <li class="treeview">
-          <a href="#">
-            <i data-feather="grid"></i>
-            <span>Components</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-right pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="components_alerts.html"><i class="ti-more"></i>Alerts</a></li>
-            <li><a href="components_badges.html"><i class="ti-more"></i>Badge</a></li>
-            
-          </ul>
-        </li>
+        </li> 
 	  
         
       </ul>
